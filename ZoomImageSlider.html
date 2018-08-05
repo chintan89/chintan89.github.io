@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Full size photo</title>
+    <link href="Content/ZoomImageSlider.css" rel="stylesheet" />
+</head>
+<body>
+    <figure>
+        <img id="image" src="" width="960" height="500" />
+    </figure>
+    <div id="alertMsg" class="alert">
+        <span class="alertbtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <span id="msg"></span>
+    </div>
+    <footer>
+
+        <div>
+            <button id="MyfavoriteBtn" class="button">Add Favorite Pics</button>
+            <button id="closeBtn" class="button">Close Window</button>
+        </div>
+    </footer>
+    
+    <script src="Scripts/ZoomImageSlider.js"></script>
+</body>
+</html>
