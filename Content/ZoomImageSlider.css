@@ -1,0 +1,134 @@
+﻿
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+}
+
+figure img {
+    cursor: pointer;
+}
+
+/* The alert message box */
+.alert {
+    padding:5px 10px 5px 10px;
+    background-color: red; 
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+    z-index: 3;
+    opacity: 0.9;
+    position: absolute;
+    top: 470px;
+    width: 100%;
+}
+
+/* The close button */
+.alertbtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    /* When moving the mouse over the close button */
+    .alertbtn:hover {
+        color: black;
+    }
+/* footer */
+footer {
+   width: 100%;
+   font-size: 14px;
+   padding: 10px;
+   clear: both;
+   background-color:antiquewhite ;
+   color: rgb(227,198,32);
+   height: 60px;
+}
+
+footer div {
+   text-align: center;
+}
+
+footer div:hover {
+   cursor: default;
+}
+
+footer div p {
+   display: inline-block;
+}
+#MyfavoriteBtn {
+    background-color: #2032ec;
+     -moz-box-shadow: inset 0 0 10px #2032ec;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+#closeBtn {
+    background-color: #d43f40;
+       -moz-box-shadow: inset 0 0 10px #d43f40;
+    -webkit-box-shadow: inset 0 0 10px #d43f40;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 15px;
+
+}
+
+    .button:hover {
+        background-color: #3e8e41
+    }
+
+    .button:active {
+        background-color: #3e8e41;
+        transform: translateY(4px);
+    }
+
+

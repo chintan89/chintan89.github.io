@@ -1,0 +1,204 @@
+﻿body {
+    background-image: url('../Images/BugSmasher/BodyBackground.gif');
+}
+
+.ImgBanner {
+    margin-left: 427px;
+    height: 125px;
+    width: 490px;
+    margin-top: 26px;
+    margin-bottom: -64px;
+}
+.Homelink {
+    float: right;
+    color: orange;
+    margin-top: 46px;
+    margin-right: 130px;
+    font-size: 24px;
+}
+
+.flash {
+    animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin-left: 225px;
+    margin-top: 5%;
+}
+
+@keyframes flash {
+    from {
+        color: darkblue;
+    }
+
+    to {
+        color: red;
+    }
+}
+#area {
+    position: relative;
+    background-color: aquamarine;
+    background-image: url('../Images/BugSmasher/CanvasBackground.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+#target {
+    position: absolute;
+    z-index: 4;
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    right: 100px;
+    margin-top: -204px;
+}
+
+#score {
+    margin-left: -504px;
+    margin-top: 155px;
+    color: azure;
+}
+
+#level {
+    margin-top: -53px;
+    margin-left: -347px;
+    color: azure;
+}
+
+#btnSpeedReset {
+    margin-top: -52px;
+    margin-left: -215px;
+}
+
+#btnGameReset {
+    margin-top: -60px;
+    margin-left: -48px;
+}
+
+aside {
+    position: absolute;
+    left: -130px;
+    top: 0;
+}
+
+    aside img {
+        height: 100px;
+        width: 100px;
+        vertical-align: middle;
+    }
+
+#area:hover {
+    cursor: /*url(spiderweb.png),*/ auto;
+}
+
+.button {
+    font-size: 14px;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    background-color: #3e8e41;
+    -moz-box-shadow: inset 0 0 10px #2032ec;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    padding: 10px;
+    margin-left: 392%;
+    margin-top: 153px;
+    width: 120px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    border: none;
+}
+
+    .button:hover {
+        background-color: rgba(120, 255, 0, 0.29);
+    }
+
+    .button:active {
+        background-color: rgba(120, 255, 0, 0.29);
+        transform: translateY(4px);
+    }
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(64, 148, 176, 0.52);
+    color: lemonchiffon;
+    text-align: center;
+    height: 30px;
+}
+
+h6 {
+    margin-top: 7px;
+}
+
+.myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+    .myButton:hover {
+        background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color: #bab1ba;
+    }
+
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+.GameButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+    .GameButton:hover {
+        background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color: #bab1ba;
+    }
+
+    .GameButton:active {
+        position: relative;
+        top: 1px;
+    }

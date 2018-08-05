@@ -1,0 +1,193 @@
+﻿.Homelink {
+    float: right;
+    color: orange;
+   font-size: 22px;
+    margin-top: 21px;
+  
+}
+
+.flash {
+    animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    margin-left: 225px;
+    margin-top: 5%;
+}
+
+@keyframes flash {
+    from {
+        color: darkblue;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+/*For Home page Text */
+.HomeText {
+    text-align: center;
+    color: white;
+}
+ .CarFinderForm {
+  background: -webkit-linear-gradient(bottom, #bcc0c1, #EEEEEE 175px);
+  background: -moz-linear-gradient(bottom, #bcc0c1, #EEEEEE 175px);
+  background: linear-gradient(bottom, #bcc0c1, #EEEEEE 175px);
+  margin: auto;
+  position: relative;
+  font-weight: bold;
+
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+   float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+    border: 1px solid LightGray;
+    width: 60%;
+    color:#444444;
+    font-size:20px;
+  
+}
+
+.LocationHeading {
+    background-color: #dad5d5;
+    font-weight: bold;
+    border-bottom: 2px solid #aaa;
+    border-top: 2px solid #aaa;
+    font-size: 25px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    color: white;
+    left: 0;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #034c9c;
+    text-align: center;
+    height:15px;
+    /*position:absolute;*/
+}
+/* For Why Buy from Us list css*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+    margin-left: 42px;
+}
+
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        .navbar li a:hover {
+            background-color: maroon;
+        }
+/*For Navigation Menu Css*/
+.nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    text-align: left;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    padding-left: 15px;
+    border-bottom: 1px solid #888;
+    transition: .3s background-color;
+}
+
+
+    .nav a:hover {
+        background-color: maroon;
+    }
+
+    .nav a.active {
+        background-color: #aaa;
+        color: #444;
+        cursor: default;
+        font-weight: bold;
+    }
+
+/* Sub Menus */
+.nav li li {
+    font-size: .8em;
+}
+
+.nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 40px;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: -4px;
+    cursor: pointer;
+}
+
+.nav a {
+    border-bottom: none;
+}
+
+.nav > ul > li {
+    text-align: center;
+}
+
+    .nav > ul > li > a {
+        padding-left: 0;
+    }
+
+/* Sub Menus */
+.nav li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+}
+
+.nav li:hover ul {
+    display: block;
+}
+
+.nav li ul li {
+    display: block;
+}
