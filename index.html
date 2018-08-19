@@ -5,14 +5,18 @@
 
 <head>
     <link href="Content/Home.css" rel="stylesheet" />
-    
+<link rel="icon"  type="image/png" href="Images/logo.jpg">
+
+    <link href="Content/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
     <ul>
+        <li><img src="Images/Homepage/logo01.jpg" /></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="About.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li class="dropdown">
+        <li><a href="Projects.html">Projects</a></li>
+
+        <!--<li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Project</a>
             <div class="dropdown-content">
                 <a href="Registration_Form.html">Registration Form</a>
@@ -21,13 +25,73 @@
                 <a href="BMI_Calculator.html">BMI Calculator</a>
                 <a href="CarInventory.html">CarInventory</a>
             </div>
+        </li>-->
     </ul>
-    
-    <div id="header">
-        <h1>Hello, I'm Chintan Patel.</h1>
-        <h2>I craft websites that are beautiful on both the inside and out.</h2>
+    <div class="row" id="header">
+        <div class="col-md-8" >
+            <h1>Hello, I'm Chintan Patel.</h1>
+            <h2>I craft websites that are beautiful on both the inside and out.</h2>
 
-        <p class="btn"><a href="portfolio.html">View my portfolio</a></p>
+            <!--<p class="btn"><a href="Projects.html"></a>View my portfolio</p>-->
+            </div>
+        
+        <div class="col-md-4" >
+            <img src="Images/Homepage/Webview01.jpg" style="border-radius: 10px"/>
+            <img src="Images/Homepage/Mobview01.jpg" style="border-radius: 10px"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4" style="margin-top:25px;">
+            <p class="contact">Get in Touch</p>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4 effect" id="content">
+            <div class="row">
+                <div class="col-md-2">
+                    <p style="margin: 0 0 25px!important"><img src="Images/Homepage/Location_Icon01.jpg" /></p>
+                </div>
+                <div class="col-md-10">
+                    Toronto , ON, CANADA
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <p style="margin: 0 0 25px!important"><img src="Images/Homepage/Email_Icon01.png" /></p>
+                </div>
+                <div class="col-md-10"> 
+                    Chintanbpatel89@Gmail.com
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <p style="margin: 0 0 25px!important"><img src="Images/Homepage/Linkedin_Icon01.jpg" /></p>
+                </div>
+                <div class="col-md-10">
+                    https://www.linkedin.com/in/chintan-patel-73592779
+                </div>
+            </div>
+           
+            
+        </div>
+        <div class="col-md-4">
+
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <p id="copyright">&copy; Chintan Patel - Software Engineering Technician </p>
+        <p id="back-top"><a href="#">Going up?</a></p>
     </div>
 </body>
 </html>
