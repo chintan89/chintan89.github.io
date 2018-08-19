@@ -40,7 +40,7 @@
 
         <table class="auto-style1 container_body">
             <tr>
-                <td class="auto-style17"><h3 style="color:aqua"><a  href="index.html">Back to Home</a></h3></td>
+                <td class="auto-style17"><h3 style="color:aqua"><a  href="Projects.html">Back to Home</a></h3></td>
                 <td>
                     <h3>Member Registration</h3>
                 </td>
@@ -57,7 +57,8 @@
             <tr>
                 <td class="auto-style18">First Name: <span class="ErrorMsg">*</span></td>
                 <td class="auto-style13">
-                    <asp:TextBox class="textbox" ID="txtFirstName" ></asp:TextBox>
+                    <!--<asp:TextBox class="textbox" ID="txtFirstName" ></asp:TextBox>-->
+                    <input id="Text1"class="textbox" ID="txtFirstName" type="text" />
                 </td>
                 <td class="auto-style6">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1"  ControlToValidate="txtFirstName" ErrorMessage="First Name Is Required" ForeColor="Red"></asp:RequiredFieldValidator>
@@ -181,14 +182,14 @@
             <tr>
                 <td class="auto-style19">&nbsp;</td>
                 <td class="auto-style14">
-                    <asp:Button class="button" ID="btnRegistration"  OnClick="btnRegistration_Click" Text="Register" Width="110px" />
-                    <asp:Button class="buttonclear" ID="btnreset"  Text="Reset" OnClick="btnreset_Click" />
-                </td>
+                    <input ID="btnRegistration"  type="button"  class="button" OnClick="btnRegistration()" value="Register" />
+                    <input ID="btnreset"  type="button" class="buttonclear" OnClick="btnreset_Click()" value="Reset" />
+                 </td>
                 <td class="auto-style12">&nbsp;</td>
             </tr>
             <tr>
                 <td colspan="3">
-                    <h6>&copy; Copyright Chintan Patel - 300622893 - COMP229 - Web Development-ASP.NET -Fall 2017 - Assignment-1</h6>
+                    <h6>&copy; Copyright Chintan Patel - Web Development-ASP.NET - Summer 2017 </h6>
                 </td>
             </tr>
         </table>
